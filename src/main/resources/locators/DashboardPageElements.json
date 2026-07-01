@@ -1,0 +1,31 @@
+{
+  "dashboardPage": {
+    "elements": [
+      {
+        "elementName": "secureAreaHeading",
+        "by": "cssSelector",
+        "locator": "h2"
+      },
+      {
+        "elementName": "flashMessage",
+        "by": "id",
+        "locator": "flash"
+      },
+      {
+        "elementName": "logoutButton",
+        "by": "cssSelector",
+        "locator": "a.button[href='/logout']"
+      },
+      {
+        "elementName": "contentArea",
+        "by": "cssSelector",
+        "locator": "#content .example"
+      },
+      {
+        "elementName": "subheading",
+        "by": "cssSelector",
+        "locator": "h4.subheader"
+      }
+    ]
+  }
+}

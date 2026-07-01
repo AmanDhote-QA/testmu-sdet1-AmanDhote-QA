@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestMu-SDET1-AI-Native-Suite" verbose="1" parallel="false">
+
+    <listeners>
+        <listener class-name="framework.listeners.ScreenshotListener" />
+        <listener class-name="framework.listeners.AITestListener" />
+    </listeners>
+
+    <!-- Login Module Tests -->
+    <test name="Login-Module">
+        <classes>
+            <class name="tests.LoginTests" />
+        </classes>
+    </test>
+
+    <!-- Dashboard Module Tests -->
+    <test name="Dashboard-Module">
+        <classes>
+            <class name="tests.DashboardTests" />
+        </classes>
+    </test>
+
+    <!-- REST API Module Tests -->
+    <test name="API-Module">
+        <classes>
+            <class name="tests.ApiTests" />
+        </classes>
+    </test>
+
+</suite>

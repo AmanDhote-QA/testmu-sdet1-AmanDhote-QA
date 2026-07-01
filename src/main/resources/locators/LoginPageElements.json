@@ -1,0 +1,41 @@
+{
+  "loginPage": {
+    "elements": [
+      {
+        "elementName": "usernameField",
+        "by": "id",
+        "locator": "username"
+      },
+      {
+        "elementName": "passwordField",
+        "by": "id",
+        "locator": "password"
+      },
+      {
+        "elementName": "loginButton",
+        "by": "cssSelector",
+        "locator": "button[type='submit']"
+      },
+      {
+        "elementName": "forgotPasswordLink",
+        "by": "linkText",
+        "locator": "Forgot Password?"
+      },
+      {
+        "elementName": "flashMessage",
+        "by": "id",
+        "locator": "flash"
+      },
+      {
+        "elementName": "loginFormHeading",
+        "by": "cssSelector",
+        "locator": "h2"
+      },
+      {
+        "elementName": "logoutButton",
+        "by": "cssSelector",
+        "locator": "a.button[href='/logout']"
+      }
+    ]
+  }
+}
