@@ -81,6 +81,3 @@ If I had more time to expand this framework, I would build:
 2. **Parallel Cross-Browser Execution Grid:** Hooking up `DriverFactory` to a cloud grid (like BrowserStack or LambdaTest) to run the AI analysis simultaneously across Safari, Chrome, and Edge.
 3. **CI/CD Integration:** Wiring the framework into GitHub Actions with automated PR comments, so the AI Flaky Test Classifier automatically blocks PRs if it detects a high likelihood of new flaky code.
 4. **Historical Flakiness Trends:** Storing the `Flaky Classifier` results in a database (like PostgreSQL) to track which test classes degrade over time.
-
----
-*Built with ❤️ for TestMu SDET-1*
